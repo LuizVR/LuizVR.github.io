@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>XV Kenya</title>
+	<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<main>
+		<div class="carousel-wrapper">
+			<span id="item-1"></span>
+			<span id="item-2"></span>
+			<span id="item-3"></span>
+			<span id="item-4"></span>
+			<span id="item-5"></span>
+
+			<div class="carousel-item item-1">
+				<a href="#item-5" class="arrow-prev arrow"></a>
+				</br>
+				</br>
+				</br>
+				<h1>Kennya Celic</h1>
+				<br />
+				<h1>Mis XV Años</h1>
+				<a href="#item-2" class="arrow-next arrow"></a>
+			</div>
+
+			<div class="carousel-item item-2">
+				<a href="#item-1" class="arrow-prev arrow"></a>
+				<p>Hoy guardo en mis brazos la estrella divina que fue mi niñez
+					y hoy mi adolescencia con alas de angel se eleva hacia el cielo
+					por primera vez por eso quiero compartir con mis padres y contigo.
+				</p>
+				<a href="#item-3" class="arrow-next arrow"></a>
+			</div>
+
+			<div class="carousel-item item-3">
+				<a href="#item-2" class="arrow-prev arrow"></a>
+				<p>Padres: Marlene Cid Mosqueda & Hugo Mendoza Salas</p>
+				<p>Padrinos: Armando Cid Mosqueda & Griselda Sanchez</p>
+				<a href="#item-4" class="arrow-next arrow"></a>
+			</div>
+
+			<div class="carousel-item item-4">
+				<a href="#item-3" class="arrow-prev arrow"></a>
+				</br>
+				<p> Misa: Sabado 15 de abril en San Pablo apóstol a las 14:00 hrs
+					Ubicada en Calle Ayuntamiento Col. Centro Huehuetoca.</p>
+				<a href="#item-5" class="arrow-next arrow"></a>
+			</div>
+
+			<div class="carousel-item item-5">
+				<a href="#item-4" class="arrow-prev arrow"></a>
+				</br>
+				</br>
+				<p>Recepcion: 16:00 hrs Ubicado en Hacienda Lirios Manzana 10
+					Lote 5 Ex Hacienda de Xalpa
+				</p>
+				<a href="#item-1" class="arrow-next arrow"></a>
+			</div>
+
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script src="../dist/jquery.ripples.js"></script>
+	<script>
+		$(document).ready(function () {
+
+			$('body').ripples({
+				resolution: 512,
+				dropRadius: 40, //px
+				perturbance: 0.07,
+			});
+		});
+	</script>
+</body>
+
+</html>
